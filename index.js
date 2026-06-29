@@ -53,13 +53,13 @@ else if(rollNumber2==6){
 }
 if(rollNumber1>rollNumber2){
     document.querySelector("h2").style.visibility="visible";  
-    document.querySelector("h2").innerHTML("Player one wins");
+    document.querySelector("h2").innerHTML = "Player one wins";
 }
 else if(rollNumber2>rollNumber1){
     document.querySelector("h2").style.visibility="visible";  
-    document.querySelector("h2").innerHTML="Player two wins";
+    document.querySelector("h2").innerHTML = "Player two wins";
 }
 else{
     document.querySelector("h2").style.visibility="visible";  
-    document.querySelector("h2").innerHTML="Its a Tie roll Again";
+    document.querySelector("h2").innerHTML = "Its a Tie roll Again";
 }
